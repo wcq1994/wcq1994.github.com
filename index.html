@@ -1,110 +1,415 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<!-- DW6 -->
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
 <head>
-<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
-<title>Entertainment - Home Page</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="file:///D|/mm_entertainment.css" type="text/css" />
+	<title>Peak a Personal Portfolio Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+			<link href="css/bootstrap.css" rel="stylesheet">
+			<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Peak Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->	
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script src="js/modernizr.custom.97074.js"></script>
+	<!-- js -->
+	<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smoth-scrolling -->
 </head>
-<body bgcolor="#14285f">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr bgcolor="02021e">
-    <td width="400" colspan="4" rowspan="2" nowrap="nowrap"><img src="file:///D|/mm_entertainment_image.jpg" alt="Header image" width="400" height="140" border="0" /></td>
-    <td width="360" height="58" nowrap="nowrap" colspan="3" id="logo" valign="bottom">WEBSITE NAME HERE</td>
-    <td width="100%">&nbsp;</td>
-  </tr>
-  <tr bgcolor="02021E">
-    <td height="57" nowrap="nowrap" colspan="3" id="tagline" valign="top">Optional Tagline
-      Here</td>
-	<td width="100%">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="8" bgcolor="#cc3300"><img src="file:///D|/mm_spacer.gif" alt="" width="1" height="2" border="0" /></td>
-  </tr>
+<body>
+<!-- banner -->
+<div id="home" class="banner">
+	<div class="container">
+	  <div class="banner-grids">
+			<div class="col-md-4 navigation">
+				<div class="nav-left">
+					<div class="grid__item color-4">
+						<a class="link link--kumya" href="#home">王纯青</a>
+					</div>
+				</div>
+				<div class="nav-right">
+						<span class="menu"><img src="images/menu.png" alt="" /></span>
+							<nav class="cl-effect-1">
+								<ul class="nav1">
+									<li><a href="http://pan.baidu.com/s/1dDUhWMP">作业一</a><a class="scroll" href="#home"></a></li>
+									<li><a href="http://pan.baidu.com/s/1gecRvJ9">作业二</a><a class="scroll" href="#home"></a></li>
+									<li><a href="http://pan.baidu.com/s/1o7oisI2">作业三</a><a class="scroll" href="#home"></a></li>
+									<li><a href="http://pan.baidu.com/s/1bk3cDo">作业四</a><a class="scroll" href="#home"></a><a class="scroll" href="#services"></a></li>
+									<li><a href="http://pan.baidu.com/s/1ntTRBOP">作业五</a><a class="scroll" href="#home"></a><a class="scroll" href="#contact"></a></li>
+								</ul>
+							</nav>
+							<!-- script for menu -->
+							<script> 
+								$( "span.menu" ).click(function() {
+								$( "ul.nav1" ).slideToggle( 300, function() {
+								 // Animation complete.
+								});
+								});
+							</script>
+							<!-- //script for menu -->
 
-   <tr>
-    <td colspan="8"><img src="file:///D|/mm_spacer.gif" alt="" width="1" height="2" border="0" /></td>
-  </tr>
-
-   <tr>
-    <td colspan="8" bgcolor="#cc3300"><img src="file:///D|/mm_spacer.gif" alt="" width="1" height="1" border="0" /></td>
-  </tr>
-
-   <tr>
-    <td colspan="8">&nbsp;<br />
-	&nbsp;<br />	</td>
-  </tr>
-  <tr>
-    <td width="155" valign="top" height="370">
-	<table border="0" cellspacing="0" cellpadding="0" width="155" id="navigation">
-        <tr>
-          <td width="155" height="40"><a href="javascript:;">作业一</a></td>
-        </tr>
-        <tr>
-          <td width="155" height="40">&nbsp;&nbsp; 作业二</td>
-        </tr>
-        <tr>
-          <td width="155" height="40"><a href="javascript:;">作业三</a></td>
-        </tr>
-        <tr>
-           <td width="155" height="40"><a href="javascript:;">作业四</a></td>
-        </tr>
-        <tr>
-           <td width="155" height="40"><a href="javascript:;">作业五</a></td>
-        </tr>
-        <tr>
-           <td width="155" height="40">&nbsp;</td>
-        </tr>
-      </table></td>
-    <td width="1" bgcolor="#445DA0"><img src="file:///D|/mm_spacer.gif" alt="" width="1" height="1" border="0" /></td>
-    <td width="50"><img src="file:///D|/mm_spacer.gif" alt="" width="50" height="1" border="0" /></td>
-    <td width="304" colspan="2" valign="top"><img src="file:///D|/mm_spacer.gif" alt="" width="304" height="1" border="0" /><br />
-	<table border="0" cellspacing="0" cellpadding="0" width="304">
-        <tr>
-          <td height="41" class="pageName">Welcome to here</td>
-        </tr>
-        <tr>
-          <td class="bodyText"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 王纯青message</p>            </td>
-        </tr>
-      </table>	
-	<p>&nbsp;</p></td>
-    <td width="50"><img src="file:///D|/mm_spacer.gif" alt="" width="50" height="1" border="0" /></td>
-    <td width="200" valign="top"><img src="file:///D|/mm_spacer.gif" alt="" width="1" height="10" border="0" /><br />
-     <table border="0" cellspacing="0" cellpadding="0" width="200">
-        <tr>
-          <td colspan="3" id="sidebarHeader" class="sidebarHeader" align="center">On Stage This Week</td>
-        </tr>
-
-        <tr>
-		<td width="45"><img src="file:///D|/mm_spacer.gif" alt="" width="40" height="1" border="0" /></td>
-		<td width="110" id="sidebar" class="smallText">
-			<p><img src="file:///D|/mm_entertainment_image1.jpg" alt="image 1" width="110" height="110" border="0" vspace="6" /><br />
-            Lorem ipsum dolor sit amet consetetur.<br /> <a href="javascript:;">read more &gt;</a></p>
-
-			<p><img src="file:///D|/mm_entertainment_image2.jpg" alt="image 2" width="110" height="110" border="0" vspace="6" /><br />
-              Lorem ipsum dolor sit amet consetetur.<br />
-              <a href="javascript:;">read more &gt;</a><br /></p>
-			   <br />
-			  &nbsp;<br />
-			  &nbsp;<br />
-			  &nbsp;<br />          </td>
-         <td width="45">&nbsp;</td>
-        </tr>
-      </table>
-      <br /> </td>
-    <td width="100%">&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="155">&nbsp;</td>
-    <td width="1"></td>
-    <td width="50">&nbsp;</td>
-    <td width="194">&nbsp;</td>
-    <td width="110">&nbsp;</td>
-    <td width="50">&nbsp;</td>
-    <td width="200">&nbsp;</td>
-    <td width="100%">&nbsp;</td>
-  </tr>
-</table>
+			  </div>
+				<div class="clearfix"></div>
+			</div>
+		  <div class="col-md-8 banner-image text-center">
+		  <a href="images/a2.jpg"><img src="images/banner.png" alt=""/>		      </a></div>
+		  <div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<a href="images/a1.jpg">
+<!-- //banner -->
+<!-- about -->
+</a>
+<div id="about" class="about">
+	<div class="container">
+		<div class="about-info">
+		  <p>人生的轻松，就是能在这个喧嚣的尘世，不用献媚于谁，也不必跟谁说讨好的话，他玩他的，你活你的。两不相干，然后，两相安。</p>
+		  <p>你在意谁，在意到极致，就会活在这个人的阴影里。这种在意，不外乎两种情况：想求取和怕得罪。也就是说，人生的疲惫，更多的不是在自己这里拎不起，而是在别人那里撇不清。 </p>
+		  <p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+	  </div>
+		<div class="about-grids"><div class="col-md-6 about-grid">
+		   		<h4>&nbsp;</h4>
+		   		<p>越在他人那里唯唯诺诺，就越会在自我的言行里战战兢兢。生怕说错什么，做错什么，进一步畏首畏尾，退一步左顾右盼，是进亦忧退亦忧。在这样的境况里，最累人的，不是做，而是拿捏着分寸去做。一个低声下气的人，凭恃他人，无论得到过多少，繁盛也好，光鲜也罢，最终，在自我矮化的奴才人格里，冷暖自知，甘苦备尝。</p>
+		   	</div>
+		   	<div class="clearfix"> </div>
+		</div>   
+	</div>
+</div>
+<!-- //about -->
+<!-- my skills -->
+	<div class="our-skills">
+		<div class="container">
+			<div class="skill-info">
+				<h2>我的网站</h2>
+			</div>
+			<div class="skill-grids">
+					<div class="col-md-3 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>Web Design</p>
+					</div>
+					<div class="col-md-3 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>HTML/CSS</p>
+					</div>
+					<div class="col-md-3 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>Graphic Design</p>
+					</div>
+					<div class="col-md-3 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>UI/UX</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852']
+									];
+								for (var i = 1; i <= 5; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = 40 + (i * 10);
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 10,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+						
+				</script>
+			</div>
+		</div>	
+	</div>
+<!-- //my skills -->
+<div id="portfolio" class="gallery">
+		<div class="container">
+				<script src="js/jquery.chocolat.js"></script>
+			<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+			<!--light-box-files -->
+			<script type="text/javascript" charset="utf-8">
+			$(function() {
+				$('.gallery a').Chocolat();
+			});
+			</script>
+			<h3>照片</h3>
+			<section>
+				<ul id="da-thumbs" class="da-thumbs">
+					<li>
+						<a href="images/a1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<div>
+								<h5>VIEW</h5>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/a2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<div>
+								<h5>VIEW</h5>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/a3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<div>
+								<h5>VIEW</h5>
+								
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/a4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<div>
+								<h5>VIEW</h5>
+								
+							</div>
+						</a>
+					</li>
+					<li>	
+						<a href="images/a5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<div>
+								<h5>VIEW</h5>
+								
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/a6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<div>
+								<h5>VIEW</h5>
+								
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/a7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<div>
+								<h5>VIEW</h5>
+								
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/a1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<div>
+								<h5>VIEW</h5>
+								
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/a2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<div>
+								<h5>VIEW</h5>
+								
+							</div>
+						</a>
+					</li>
+					<div class="clearfix"> </div>
+				</ul>
+			</section>
+				<script type="text/javascript" src="js/jquery.hoverdir.js"></script>	
+				<script type="text/javascript">
+					$(function() {
+						$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+					});
+				</script>
+        </div>	
+</div>
+<!--//gallery-->
+<!--services-->
+<div id="services" class="services">
+	<div class="container">
+		<div class="ser-head">
+			<h3>FEATURED SERVICES</h3>
+		</div>
+		<div class="wel-grids">
+			<div class="col-md-4 wel-grid text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+					</figure>
+					<h3>VOLUPTATEM</h3>
+					<p> Nemo enim ipsam voluptatem
+					quia voluptas sit aspernatur aut
+					odit aut fugi.</p>
+				</div>
+			</div>
+			<div class="col-md-4 wel-grid btm-gre text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+					</figure>
+					<h3>VOLUPTATEM</h3>
+					<p> Nemo enim ipsam voluptatem
+					quia voluptas sit aspernatur aut
+					odit aut fugi.</p>
+				</div>
+			</div>
+			<div class="col-md-4 wel-grid text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+					</figure>
+					<h3>VOLUPTATEM</h3>
+					<p> Nemo enim ipsam voluptatem
+					quia voluptas sit aspernatur aut
+					odit aut fugi.</p>
+				</div>
+			</div>
+			<div class="col-md-4 wel-grid btm-gre text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+					</figure>
+					<h3>VOLUPTATEM</h3>
+					<p> Nemo enim ipsam voluptatem
+					quia voluptas sit aspernatur aut
+					odit aut fugi.</p>
+				</div>
+			</div>
+			<div class="col-md-4 wel-grid text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+					</figure>
+					<h3>VOLUPTATEM</h3>
+					<p> Nemo enim ipsam voluptatem
+					quia voluptas sit aspernatur aut
+					odit aut fugi.</p>
+				</div>
+			</div>
+			<div class="col-md-4 wel-grid btm-gre text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+					</figure>
+					<h3>VOLUPTATEM</h3>
+					<p> Nemo enim ipsam voluptatem
+					quia voluptas sit aspernatur aut
+					odit aut fugi.</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//services-->
+<!--news-->
+<div class="news">
+	<div class="container">
+		<h3>NEWSLETTER SIGN UP</h3>
+		<p> Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing. </p>
+		<div class="na-m">
+			<div class="name">
+				<form>
+					<input type="text" placeholder="Enter email id" required="">
+				</form>
+			</div>
+			<div class="button">
+				<form>
+					<input type="submit" value="Subscribe">
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--//news-->
+<!-- get-in -->
+<div id="contact" class="get-in-touch">
+	<div class="container">
+		<div class="get-info text-center">
+			<h3>GET IN TOUCH</h3>
+			<h4><i>Feel Free To Contact Us</i></h4>
+			<p>Lorem ipsum dolor amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse</p>
+		</div>
+	</div>
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2482.432383990807!2d0.028213999961443994!3d51.52362882484525!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1423469959819" frameborder="0" style="border:0"></iframe>
+	</div>
+</div>
+<!-- //get-in -->
+<!-- contact-us -->
+<div class="contact-us">
+	<div class="container">
+		<div class="contact-grids">
+			<div class="col-md-4 contact-grid text-center">
+				<div class="point-icon"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></div>
+				<p>Jl. Pahlawan VII No.247-D Sidoarjo-Surabaya-Indonesia</p>
+			</div>
+			<div class="col-md-4 contact-grid text-center">
+				<div class="point-icon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
+				<p><a href="mailto:info@example.com">rudhisasmito@gmail.com</a></p>
+			</div>
+			<div class="col-md-4 contact-grid text-center">
+				<div class="point-icon"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></div>
+				<p>+613 0000 0000</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="contact-info">
+			<form>
+				<input type="text" placeholder="Your Name" required>
+				<input type="text" placeholder="Your E-Mail" required>
+				<input type="text" placeholder="Subject" required>
+				<textarea placeholder="Your Message" required></textarea>
+				<input type="submit" value="SEND MESSAGE">
+			</form>
+		</div>
+	</div>
+</div>
+<!-- //contact-us -->
+<!-- footer -->
+<div class="copy-right">
+	<div class="container">
+		<p> &copy; 2015 Peak. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+	</div>
+</div>
+<!-- footer -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
 </body>
 </html>
